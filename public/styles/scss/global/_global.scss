@@ -19,6 +19,7 @@ body {
   font-weight: 400;
   line-height: 1em;
   overflow-x: hidden;
+  margin: 0;
 
   &.fixed {
     overflow: hidden;
@@ -90,6 +91,10 @@ p {
 .smallIndent {
   margin-left: 5%;
   width: 95%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 strong {
@@ -254,7 +259,7 @@ body {
 
 .container {
   margin: auto;
-  width: 90%;
+  //width: 90%;
 }
 
 .navbar {
@@ -273,7 +278,7 @@ body {
 .navbar li a {
   font-family: $beba;
   font-size: 1.05em;
-  color: white;
+  color: rgb(64, 64, 64);
   display: inline-block;
   text-align: center;
   padding: 10px 16px;
@@ -282,7 +287,7 @@ body {
 
 .navbar li.navbar_items a:hover {
   border-bottom-style: solid;
-  border-bottom-color: white;
+  border-bottom-color: rgb(75, 75, 75);
 }
 
 .navbar li.icon {
@@ -301,7 +306,7 @@ body {
 }
 
 p {
-  color:white;
+  color:rgb(64, 64, 64);
   font-size: 20px;
   font-family: Quicksand;
 }
@@ -450,7 +455,7 @@ p {
   width: 100%;
   left:0;
   bottom:0;
-  color: white;
+  color: rgb(64, 64, 64);
   font-family: $beba;
 }
 
